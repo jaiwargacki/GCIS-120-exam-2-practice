@@ -10,7 +10,7 @@ import org.junit.platform.commons.annotation.Testable;
 @Testable
 public class AmusementParkTest {
     // Testing Child
-    /* @Test
+    @Test
     public void testChildTicketPrice() {
         Child child = new Child("Bob", 55);
         assertEquals(10.99, child.ticketPrice());
@@ -60,10 +60,10 @@ public class AmusementParkTest {
         Child child = new Child("Bob", 30);
         child.assignChaperone(adult);
         assertFalse(child.canRide());
-    } */
+    }
 
     // Testing Adult
-    /* @Test
+    @Test
     public void testAdultTicketPrice() {
         Adult adult = new Adult("Bob", 55);
         assertEquals(15.99, adult.ticketPrice());
@@ -97,5 +97,5 @@ public class AmusementParkTest {
     public void testAdultCanRide3() {
         Adult adult = new Adult("Bob", 40);
         assertFalse(adult.canRide());
-    }*/
+    }
 } 

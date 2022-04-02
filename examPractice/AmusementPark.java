@@ -7,24 +7,24 @@ import java.util.Set;
 
 public class AmusementPark {
 
-    /* public static void enter(Person person) {
+    public static void enter(Person person) {
         System.out.println(person + " enters the park");
-    } */
+    }
 
-    /* public static void getInLine(Person person, Queue<Person> line) {
+    public static void getInLine(Person person, Queue<Person> line) {
         line.add(person);
         System.out.println(person + " gets in line for the ride.");
-    } */
+    }
 
-    /* public static void ride(Person person) {
+    public static void ride(Person person) {
         if (person.canRide()) {
             System.out.println(person + " rides the ride. Woooh so much fun!");
         } else {
             System.out.println("Oh no! " + person + " could not ride the ride.");
         }
-    } */
-
-    /* public static void main(String[] args) {
+    } 
+    
+    public static void main(String[] args) {
         System.out.println("----- Welcome to the amusement park!! We have one ride... -----");
 
         Set<Person> people = new HashSet<>();
@@ -62,5 +62,5 @@ public class AmusementPark {
         System.out.println("----- Thanks for stopping by. -----");
         
 
-    } */
+    }
 }
